@@ -2,11 +2,12 @@
 ## set: -  If the matrix has changed, the set function sets the new value in the list, while erasing the previously cached Inverse of the matris
 ## get: - is a function that returns the matrix
 ## setinverse : - takes the inverse of the matrix as an argument and caches it
-## get inverse : - returns the cached inverse of the matrix. If the inverse is not cached, it returns null
+## getinverse: - returns the cached inverse of the matrix. If the inverse is not cached, it returns null
 
 
 makeCacheMatrix <- function(x = matrix()) 
 {
+
  inv<- NULL
         
         
